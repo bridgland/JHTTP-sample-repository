@@ -38,7 +38,7 @@ pipeline:
                   timeout: ""
                   type: BuildAndPushDockerRegistry
           platform:
-            os: MacOS
+            os: Linux
             arch: Amd64
           runtime:
             type: Docker
