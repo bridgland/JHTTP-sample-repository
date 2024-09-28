@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_bridgland_JHTTP_sample_repository_1727534888979-pr-trigger-input-set
+  identifier: Build_bridgland_JHTTP_sample_repository_1727534888979prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: javademo
+  pipeline:
+    identifier: Build_bridgland_JHTTP_sample_repository_1727534888979
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
